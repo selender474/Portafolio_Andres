@@ -1,0 +1,38 @@
+.boton{
+    background-color: skyblue;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.boton:hover{
+    background-color: green;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.perfil{
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(225, 0, 0, 0.671);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.perfil img{
+    width: 100px;
+    border-radius: 50%;
+}
